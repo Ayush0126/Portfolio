@@ -3,20 +3,11 @@
   <h1 align="center">Personal Website</h1>
   <h5 align="center">HTML5 + CSS3 + JavaScript</h5>
   <hr/>
-  <img src="img/website_preview.png" alt="webpage preview"/>
+  <img src="img/website.png" alt="webpage preview"/>
   <hr/>
   
 <p align="center">
 <hr/>
-
-_Call-to-Action buttons_
-
-<div align="center">
-
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://krish05-portfolio.vercel.app/)
-<hr/>
-</div>
-
 _Repo info_
 
 ## Languages Used
@@ -36,4 +27,4 @@ _Repo info_
 
 ## License
 
-Released under [MIT](/LICENSE) by [@krishna](https://github.com/krishna-negi05).
+Released under [MIT](/LICENSE) by [@Ayush](https://github.com/Ayush0126).
