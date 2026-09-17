@@ -879,6 +879,58 @@ form.addEventListener("submit", handleSubmit);
 
 const projectData = [
   {
+  title: "RankPulse",
+
+  subTitle:
+    "AI-powered healthcare website analyzer for SEO, performance, and Google ranking insights.",
+
+  thumbnail: "../img/thumbnails/RankPulse.png",
+
+  description:
+    "A full-stack healthcare website analysis platform that evaluates websites across SEO, performance, and patient engagement metrics. It combines rule-based web scraping, LLM-powered analysis using Groq, live Google ranking data through SerpApi, PageSpeed insights, Nominatim geolocation, and a machine learning-based ranking predictor.",
+
+  techStack: [
+    "Python",
+    "Flask",
+    "MySQL",
+    "Groq",
+    "SerpApi",
+    "Scikit-learn"
+  ],
+
+  srcURL: "https://rankpulse-73be.onrender.com/",
+  },
+  {
+  title: "SmartPrep AI",
+
+  subTitle:
+    "AI-powered mock interview platform for technical and behavioral interview practice.",
+
+  thumbnail: "../img/thumbnails/Smartprep.png",
+
+  description:
+    "An interactive AI mock interview platform built with Next.js, Shadcn UI, Vapi, and Firebase. It enables users to practice interviews through AI-powered voice interactions and receive a realistic interview experience.",
+
+  techStack: ["Next.js", "Shadcn UI", "Vapi", "Firebase"],
+
+  srcURL: "https://smartprep1.netlify.app/sign-in",
+  },
+  {
+  title: "Fake News Detection",
+
+  subTitle:
+    "Machine learning system for fake-news detection and sentiment classification.",
+
+  thumbnail: "../img/projects-default.jpg",
+
+  description:
+    "A machine learning application using Logistic Regression and Random Forest to identify fake news, achieving approximately 90% fake-news detection accuracy. It also achieved 99.4% accuracy for sentiment classification.",
+
+  techStack: ["Python", "Scikit-learn", "Logistic Regression", "Random Forest"],
+
+  srcURL: "https://github.com/Ayush0126/Fake-News-Detection",
+  },
+  {
     title: "Topsis",
     subTitle:
       "You can easily perform topsis using this package.",
@@ -925,6 +977,54 @@ const projectData = [
       "A product cart application that allows users to add, remove, and manage products in their cart. This project provides a simple and intuitive interface for users to interact with their shopping cart.That helps users keep track of their selected products and manage their shopping experience.It was based on idea that different products available in different shopping sites from which user can select products and add them to cart.. ie all in one cart.",
     techStack: ["React", "HTML", "CSS"],
     srcURL: "https://product-cart-rt8f.onrender.com/",
+  },
+  {
+  title: "Waypoint - Collaborative AI Trip Planner",
+
+  subTitle:
+    "Real-time collaborative trip planning powered by an AI agent.",
+
+  thumbnail: "../img/projects-default.jpg",
+
+  description:
+    "A collaborative AI trip planner where multiple users can add travel constraints in real time and an AI agent reconciles them into a day-by-day itinerary. The system uses Socket.io for real-time collaboration, Redis for persistent room state and pub/sub, and AI tool calling for weather data and flight-price estimates. The agent can detect conflicting constraints, ask clarifying questions, and iteratively revise the itinerary.",
+
+  techStack: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "Socket.io",
+    "Redis",
+    "Gemini",
+    "Hugging Face",
+    "Claude"
+  ],
+
+  srcURL: "https://github.com/Ayush0126/Trip-Planner",
+  },
+  {
+  title: "AI Code Debugger",
+
+  subTitle:
+    "AI-powered VS Code extension for debugging and intelligent code analysis.",
+
+  thumbnail: "../img/projects-default.jpg",
+
+  description:
+    "A VS Code extension that uses an AI backend to explain bugs and compiler errors, analyze Big-O complexity, optimize code, provide interview-style hints, and generate test cases. Built with TypeScript, FastAPI, Hugging Face Inference API, and Docker.",
+
+  techStack: [
+    "TypeScript",
+    "VS Code API",
+    "FastAPI",
+    "Python",
+    "Hugging Face",
+    "Docker"
+  ],
+
+  srcURL: "https://github.com/Ayush0126/ai-code-debugger",
   },
   // Add more objects for additional projectData here
 ];
